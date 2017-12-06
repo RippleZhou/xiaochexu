@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/cards/image",
+    "pages/cards/addcard",
+    "pages/cards/receivecard",
+    "pages/cards/sendcard",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小工具",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "resources/sys/log.png",
+        "selectedIconPath":"resources/sys/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/party/index",
+        "iconPath": "resources/sys/log.png",
+        "selectedIconPath": "resources/sys/home.png",
+        "text": "聚会"
+      },
+      {
+        "pagePath": "pages/cards/image",
+        "iconPath": "resources/sys/log.png",
+        "selectedIconPath": "resources/sys/home.png",
+        "text": "贺卡"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "resources/sys/log.png",
+        "selectedIconPath": "resources/sys/home.png",
+        "text": "日志"
+      }
+    ],
+    "position":"bottom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
